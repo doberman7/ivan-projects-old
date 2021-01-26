@@ -4,7 +4,9 @@ import { Link, Redirect } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <h1 className="title"> Ivan Rubio</h1>
+      <div className="title">
+        <h1>Ivan Rubio</h1>
+      </div>
       <div className="projects">
         <p>Ivan´s projects</p>
       </div>
