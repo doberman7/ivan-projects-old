@@ -2,6 +2,16 @@ import React from "react";
 // import { Link, Redirect } from "react-router-dom";
 // import { motion } from "framer-motion";
 import { Frame } from "framer";
+const h1Style = {
+  color: "#111",
+  fontFamily: "Helvetica Neue",
+  fontSize: " 3em",
+  fontWeight: "bold",
+  letterSpacing: "-1px",
+  lineHeight: 1,
+  textAlign: "rigth",
+  paddingLeft: 100,
+};
 
 const Home = () => {
   return (
@@ -16,7 +26,7 @@ const Home = () => {
             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
         >
-          <h1>Ivan Rubio</h1>
+          <h1 style={h1Style}>Ivan Rubio</h1>
         </Frame>
       </div>
       <br></br>

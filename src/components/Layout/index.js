@@ -8,7 +8,7 @@ const LayoutApp = ({ children }) => {
   return (
     <Layout className="layout">
       <br />
-      <Content style={{ padding: "0 50px", height: "calc(100vh - 153.6px)" }}>
+      <Content style={{ padding: "0 0px", height: "calc(100vh - 153.6px)" }}>
         <div className="site-layout-content">{children}</div>
       </Content>
     </Layout>
