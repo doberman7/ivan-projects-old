@@ -12,21 +12,17 @@
 
 .title{
  width: 100vw;
- height: 20vh;
+ height: 30vh;
  overflow: hidden;
  padding: 0;
  margin: 0;
  display: flex;
  justify-content: center;
  align-items: center;
- /* background: linear-gradient(180deg, #f08, #d0e); */
+ background: linear-gradient(180deg, #f08, #d0e);
 }
 
-.container {
-  /* width: 150px;
-  height: 150px; */
-  background: white;
-  border-radius: 30px;
+.container { 
   background: linear-gradient(180deg, #f08, #d0e);
 }
 
