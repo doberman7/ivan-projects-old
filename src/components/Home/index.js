@@ -18,7 +18,7 @@ const Home = () => {
     <>
       <div className="title ">
         <Frame
-          width={190}
+          width={250}
           className="container "
           animate={{
             scale: [1, 2, 2, 1, 1],
