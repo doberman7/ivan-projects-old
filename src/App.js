@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Home from "./components/Home";
 import Particles from "react-particles-js";
-import particlesConfig from "./particlesConfig";
+import particlesConfig from "./components/config/particlesConfig";
 
 const App = () => {
   return (
