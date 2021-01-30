@@ -12,6 +12,9 @@ const h1Style = {
   textAlign: "rigth",
   paddingLeft: 100,
 };
+const frame = {
+  background: "linear-gradient(180deg, #f08, #d0e)",
+};
 
 const Home = () => {
   return (
@@ -19,7 +22,8 @@ const Home = () => {
       <div className="title ">
         <Frame
           width={250}
-          className="container "
+          // className="container "
+          style={frame}
           animate={{
             scale: [1, 2, 2, 1, 1],
             rotate: [0, 0, 270, 270, 0],
