@@ -20,7 +20,7 @@ const Home = () => {
           <p
             style={{
               color: "#111",
-              fontFamily: "Helvetica Neue",
+              // fontFamily: "Helvetica Neue",
               fontSize: " 50px",
               fontWeight: "bold",
               letterSpacing: "-1px",
