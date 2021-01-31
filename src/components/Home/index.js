@@ -1,7 +1,25 @@
 import React from "react";
 // import { Link, Redirect } from "react-router-dom";
 // import { motion } from "framer-motion";
+import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import { Item } from "../../Item";
+import { List } from "../../List";
 import { Frame } from "framer";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+function Store({ match }) {
+  let { id } = match.params;
+  const imageHasLoaded = true;
+
+  return (
+    <>
+      <List selectedId={id} />
+      <AnimatePresence>
+        {id && imageHasLoaded && <Item id={id} key="item" />}
+      </AnimatePresence>
+    </>
+  );
+}
 const h1Style = {
   color: "#111",
   fontFamily: "Helvetica Neue",
@@ -37,7 +55,13 @@ const Home = () => {
       <div className="projects">
         <p>Ivan´s projects</p>
       </div>
-
+      <div className="container">
+        <AnimateSharedLayout type="crossfade">
+          <Router>
+            <Route path={["/:id", "/"]} component={Store} />
+          </Router>
+        </AnimateSharedLayout>
+      </div>
       <div className="contact">
         <p>Contact</p>
       </div>
