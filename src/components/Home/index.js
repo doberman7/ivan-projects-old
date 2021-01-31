@@ -28,10 +28,22 @@ const h1Style = {
   fontWeight: "bold",
   letterSpacing: "-1px",
   lineHeight: 1,
-  textAlign: "rigth",
-  paddingLeft: 100,
+  // textAlign: "rigth",
+  // paddingLeft: 300,
 };
 const frame = {
+  background: "linear-gradient(180deg, #f08, #d0e)",
+};
+
+const title = {
+  width: "100vw",
+  height: "35vh",
+  /* overflow: hidden, */
+  padding: "0",
+  margin: "0",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
   background: "linear-gradient(180deg, #f08, #d0e)",
 };
 
@@ -40,7 +52,7 @@ const Home = () => {
     <>
       <Header />
 
-      <div className="title ">
+      <div style={title}>
         <Frame
           width={250}
           // className="container "
@@ -51,7 +63,7 @@ const Home = () => {
             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
         >
-          <p style={h1Style}>Ivan Rubio</p>
+          <p style={h1Style}> Ivan 's Projects</p>
         </Frame>
       </div>
       <br></br>

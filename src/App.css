@@ -2,7 +2,7 @@
   text-align: center; 
   color: white;
   background-color: #020918;
-   min-height: 100vh; 
+   /* min-height: 100vh;  */
   /* display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,22 +10,16 @@
   /*font-size: calc(10px + 2vmin); */
 }
 
-.title{
- width: 100vw;
- height: 35vh;
- /* overflow: hidden; */
- padding: 0;
- margin: 0;
- display: flex;
- justify-content: center;
- align-items: center;
- background: linear-gradient(180deg, #f08, #d0e);
+* {
+  box-sizing: border-box;
+  font-family: ".SFNSText", "SFProText-Regular", "SFUIText-Regular", ".SFUIText",
+    Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
-/* #root {
+#root {
   display: flex;
   justify-content: center;
-} */
+}
 
 .screen {
   width: 100%;
@@ -166,7 +160,7 @@ li {
 .title-container {
   position: absolute;
   top: 15px;
-  left: 15px;
+  /* left: 15px; */
   max-width: 300px;
 }
 
