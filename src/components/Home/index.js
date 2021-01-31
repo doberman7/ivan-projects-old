@@ -4,6 +4,7 @@ import React from "react";
 import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 import { Item } from "../../Item";
 import { List } from "../../List";
+import { Header } from "../../Header";
 import { Frame } from "framer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -37,6 +38,8 @@ const frame = {
 const Home = () => {
   return (
     <>
+      <Header />
+
       <div className="title ">
         <Frame
           width={250}
@@ -62,9 +65,8 @@ const Home = () => {
           </Router>
         </AnimateSharedLayout>
       </div>
-      <div className="contact">
-        <p>Contact</p>
-      </div>
+      <div className="contact"></div>
+      <p>Contact</p>
     </>
   );
 };

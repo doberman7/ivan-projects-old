@@ -1,14 +1,13 @@
 .App {
-  /* text-align: center; */
-  /* background-color: #282c34; */
+  text-align: center; 
+  color: white;
   background-color: #020918;
-  /* min-height: 100vh;
-  display: flex;
+   min-height: 100vh; 
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; */
-  /* font-size: calc(10px + 2vmin); */
-  color: white;
+  justify-content: center;  */
+  /*font-size: calc(10px + 2vmin); */
 }
 
 .title{
@@ -22,6 +21,7 @@
  align-items: center;
  background: linear-gradient(180deg, #f08, #d0e);
 }
+
 /* #root {
   display: flex;
   justify-content: center;
