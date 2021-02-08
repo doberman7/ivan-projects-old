@@ -2,24 +2,6 @@ import React from "react";
 import { items } from "./data";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-// const items = [
-//   // Photo by ivan Torres on Unsplash
-//   {
-//     id: "c",
-//     category: "Pizza",
-//     title: "5 Food Apps Delivering the Best of Your City",
-//     pointOfInterest: 80,
-//     backgroundColor: "#814A0E",
-//   },
-//   // Photo by Dennis Brendel on Unsplash
-//   {
-//     id: "f",
-//     category: "How to",
-//     title: "Arrange Your Apple Devices for the Gram",
-//     pointOfInterest: 120,
-//     backgroundColdr: "#959684",
-//   },
-// ];
 
 function Card({ id, title, category, theme }) {
   return (

@@ -6,7 +6,6 @@ import { items } from "./data";
 
 export function Item({ id }) {
   const { category, title } = items.find((item) => item.id === id);
-  console.log(title);
   return (
     <>
       <motion.div

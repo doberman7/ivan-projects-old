@@ -2,8 +2,8 @@ export const items = [
   // Photo by ivan Torres on Unsplash
   {
     id: "c",
-    category: "Pizza",
-    title: "5 Food Apps Delivering the Best of Your City",
+    category: "MERN Stack",
+    title: "Tienda de Garage",
     pointOfInterest: 80,
     backgroundColor: "#814A0E",
   },
