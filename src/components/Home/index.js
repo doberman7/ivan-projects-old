@@ -73,7 +73,7 @@ const Home = () => {
         <p>I'm a Web Developer</p>
         <p>Here you can see my projects</p>
         <p>Contact me</p>
-        <p>…and invite me a beer</p>
+        <p>…and invite me a beer 😎 🍺</p>
       </div>
       <div className="container">
         <AnimateSharedLayout type="crossfade">
