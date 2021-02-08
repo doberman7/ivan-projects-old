@@ -4,11 +4,9 @@ import { LoremIpsum } from "react-lorem-ipsum";
 import { Link } from "react-router-dom";
 import { items } from "./data";
 
-console.log(items);
-
 export function Item({ id }) {
   const { category, title } = items.find((item) => item.id === id);
-
+  console.log(title);
   return (
     <>
       <motion.div
