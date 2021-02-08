@@ -63,12 +63,17 @@ const Home = () => {
             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
           }}
         >
-          <p style={h1Style}> Ivan 's Projects</p>
+          <p style={h1Style}> Projects</p>
         </Frame>
       </div>
       <br></br>
       <div className="projects">
-        <p>Ivan´s projects</p>
+        <p>Hi</p>
+        <p>My name is Ivan</p>
+        <p>I'm a Web Developer</p>
+        <p>Here you can see my projects</p>
+        <p>Contact me</p>
+        <p>…and invite me a beer</p>
       </div>
       <div className="container">
         <AnimateSharedLayout type="crossfade">
