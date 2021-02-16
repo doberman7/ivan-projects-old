@@ -7,7 +7,7 @@ import { items } from "./data";
 export function Item({ id }) {
   //something calls this id on the first render
   if (id === "ivan-projects") {
-    return <p>cargando</p>;
+    return null;
   }
   const { category, title } = items.find((item) => item.id === id);
   return (
