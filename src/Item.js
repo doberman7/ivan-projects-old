@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 import { items } from "./data";
 
 export function Item({ id }) {
+  //something calls this id on the first render
+  if (id === "ivan-projects") {
+    return <p>cargando</p>;
+  }
   const { category, title } = items.find((item) => item.id === id);
   return (
     <>
